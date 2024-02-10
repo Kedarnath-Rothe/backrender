@@ -13,7 +13,7 @@ const app = express();
 
 //lets tackle cors policy
 const corsOptions = {
-    origin : "http://localhost:5173",
+    origin : "https://backrender-qus9.vercel.app",
     methods : "GET, POST, PUT, DELETE, PATCH, HEAD",
     Credential : true,
 }
