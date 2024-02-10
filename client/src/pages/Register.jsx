@@ -70,7 +70,7 @@ const Register = () => {
                 navigate('/');
             } 
             else {
-                toast.error(responseData.extraDetails ? responseData.extraDetails : responseData.message);
+                toast.error("responseData.extraDetails ? responseData.extraDetails : responseData.message");
                 console.log("Error inside response");
             }
         } catch (error) {
