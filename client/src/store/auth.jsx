@@ -13,7 +13,7 @@ export const AuthProvider = ({ children }) => {
 
     const[isLoading, setIsLoading] = useState(true);
 
-    const [services, setServices] = useState("");
+    const [services, setServices] = useState([]);
 
     const authorizationToken = `Bearer ${token}`;
 
