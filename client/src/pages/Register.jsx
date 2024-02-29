@@ -8,7 +8,7 @@ import { baseURL } from "../url";
 
 const Register = () => {
 
-    const [ user, setUser ] = useState({
+    const [ user, setUser ] = useState({                     //initially all inputs are empty
         username: "",
         email: "",
         phone: "",
