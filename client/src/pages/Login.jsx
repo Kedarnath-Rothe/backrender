@@ -12,7 +12,7 @@ const Login = () => {
     })
 
     // Handling the input value
-    const handleInput = (e) => {                 //e --> event
+    const handleInput = (e) => {                 //e --> event     see in console
         console.log(e);
         let name = e.target.name;
         let value = e.target.value;
