@@ -4,7 +4,7 @@ import { useAuth } from "../store/auth";
 
 const Logout = () => {
 
-    const { LogoutUser } = useAuth();
+    const { LogoutUser } = useAuth();                  //Logic difined in auth.js file
 
     useEffect(() => {
         LogoutUser();
