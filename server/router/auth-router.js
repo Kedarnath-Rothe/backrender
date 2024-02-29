@@ -32,7 +32,7 @@ router.route('/').get(Controller.home)
 
 router.route('/register').get(Controller.register)
 
-router.route('/register').post(upload.single('image'), validate(signupSchema), Controller.register)
+router.route('/register').post(upload.single('image'), validate(signupSchema), Controller.register)                   //Upload images
 
 router.route('/login').post(validate(loginSchema), Controller.login)
 
