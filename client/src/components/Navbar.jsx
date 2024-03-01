@@ -4,7 +4,7 @@ import './Navbar.css';
 
 const Navbar = () => {
 
-    const { isLoggedIn, user } = useAuth();
+    const { isLoggedIn, user } = useAuth();                //To ckeck is it admin or not
 
     return(
         <header>
