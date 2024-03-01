@@ -1,4 +1,5 @@
 export const Analytics = () => {
+    // Added Css in index.css
     return (
         <>
          <section className='section-analytics' >
